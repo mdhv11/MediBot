@@ -1,0 +1,25 @@
+{
+  "name": "MediBot",
+  "version": "1.0.0",
+  "description": "MERN Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chatscope/chat-ui-kit-react": "^2.0.3",
+    "@chatscope/chat-ui-kit-styles": "^1.4.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.15.15",
+    "@mui/system": "^5.15.15",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.4"
+  }
+}

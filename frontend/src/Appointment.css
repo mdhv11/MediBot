@@ -1,0 +1,57 @@
+/* Appointment Form Container */
+.appointment-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+/* Form Title */
+.appointment-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+.appointment-form {
+  width: 100%;
+}
+
+/* Form Field Label */
+.appointment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Form Input Fields */
+.appointment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit Button */
+.appointment-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Submit Button Hover Effect */
+.appointment-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message */
+.appointment-form p {
+  color: red;
+  margin-top: 10px;
+}
